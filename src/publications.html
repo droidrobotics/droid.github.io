@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Publications - Droid Robotics</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    
+    <div class="hero-background">
+            <div class="circuit-pattern"></div>
+            <div class="floating-particles"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="../assets/logos/drlogo_main_nobg.png" alt="Droid Robotics" class="logo">
+                <span>DROID ROBOTICS</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="index.html#team" class="nav-link">Team</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="publications.html" class="nav-link active">Publications</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Publications Header -->
+    <section class="page-header">
+        <div class="hero-content">
+            <div class="container hero-text">
+                <h1 class="glitch-text" data-text="PUBLICATIONS">PUBLICATIONS</h1>
+                <p class="hero-subtitle">Exploring robotics through philosophy, politics, and science</p>
+           </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="publications-page">
+        <div class="container">
+            <div class="publications-grid">
+                <div class="publication-card">
+                    <div class="publication-header">
+                        <h3>The Philosophical Implications of Robotics in Modern Society</h3>
+                        <span class="publication-date">Coming Soon</span>
+                    </div>
+                    <div class="publication-content">
+                        <p>An in-depth exploration of how robotics challenges our understanding of consciousness, free will, and what it means to be human. This publication examines the ethical frameworks we need to develop as robots become more integrated into our daily lives.</p>
+                        <div class="publication-meta">
+                            <div class="meta-item">
+                                <strong>Author:</strong> Vedant Deshmukh
+                            </div>
+                            <div class="meta-item">
+                                <strong>Category:</strong> Philosophy
+                            </div>
+                            <div class="meta-item">
+                                <strong>Read Time:</strong> 15 min
+                            </div>
+                        </div>
+                        <div class="publication-actions">
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <i class="far fa-heart"></i>
+                                <span>0</span>
+                            </button>
+                            <button class="dislike-btn" onclick="toggleDislike(this)">
+                                <i class="far fa-thumbs-down"></i>
+                                <span>0</span>
+                            </button>
+                            <button class="share-btn">
+                                <i class="fas fa-share"></i>
+                                Share
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-card">
+                    <div class="publication-header">
+                        <h3>Robotics and Political Governance: Challenges and Opportunities</h3>
+                        <span class="publication-date">Coming Soon</span>
+                    </div>
+                    <div class="publication-content">
+                        <p>Analyzing the role of robotics in addressing contemporary political challenges, from automated decision-making systems to the impact of AI on democratic processes and public policy formation.</p>
+                        <div class="publication-meta">
+                            <div class="meta-item">
+                                <strong>Author:</strong> Ayan Khan
+                            </div>
+                            <div class="meta-item">
+                                <strong>Category:</strong> Politics & Technology
+                            </div>
+                            <div class="meta-item">
+                                <strong>Read Time:</strong> 12 min
+                            </div>
+                        </div>
+                        <div class="publication-actions">
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <i class="far fa-heart"></i>
+                                <span>0</span>
+                            </button>
+                            <button class="dislike-btn" onclick="toggleDislike(this)">
+                                <i class="far fa-thumbs-down"></i>
+                                <span>0</span>
+                            </button>
+                            <button class="share-btn">
+                                <i class="fas fa-share"></i>
+                                Share
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

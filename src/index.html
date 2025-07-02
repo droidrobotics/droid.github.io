@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="The G, Claude Sonnet 4">
+
+    <title>Droid Robotics - Robotics & IoT Society of Ashoka University</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="global-hero-background">
+            <div class="circuit-pattern"></div>
+            <div class="floating-particles"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="../assets/logos/drlogo_main_nobg.png" alt="DR Society logo" class="logo">
+                <span>DROID ROBOTICS</span>
+            </div>
+
+            <!-- Main Navigation Menu for Screens > 768px -->
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#team" class="nav-link">Team</a>
+                <a href="./projects.html" class="nav-link">Projects</a>
+                <a href="./publications.html" class="nav-link">Publications</a>
+            </div>
+
+            <!-- Hamburger Menu for Mobile -->
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+        </div>
+    </nav>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="glitch-text" data-text="DROID ROBOTICS">DROID ROBOTICS</h1>
+                <p class="hero-subtitle">Ashoka University's Society for Robotics and IoT</p>
+                <p class="hero-description">An Ashokan student-led initiative combining robotics, and creativity zealously to produce inventive robotic-answers to solve practical problems</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="location.href='./projects.html'">
+                        <i class="fas fa-robot"></i> Explore Projects
+                    </button>
+                    <button class="btn-secondary" onclick="scrollToSection('about')">
+                        <i class="fas fa-info-circle"></i> Learn More
+                    </button>
+                </div>
+            </div>
+            <div class="dr-home-logo-holder">
+                <div class="logo-matrix-formation">
+                    <div class="matrix-column">0\n1\n0\n1\n0\n1\n0\n1</div>
+                    <div class="matrix-column">1\n0\n1\n0\n1\n0\n1\n0</div>
+                    <div class="matrix-column">0\n1\n1\n0\n0\n1\n1\n0</div>
+                    <div class="matrix-column">1\n1\n0\n0\n1\n1\n0\n0</div>
+                    <div class="matrix-column">0\n0\n1\n1\n0\n0\n1\n1</div>
+                    <div class="matrix-column">1\n0\n0\n1\n1\n0\n0\n1</div>
+                    <div class="matrix-column">0\n1\n0\n1\n0\n1\n0\n1</div>
+                    <div class="matrix-column">1\n0\n1\n0\n1\n0\n1\n0</div>
+                        <img src="../assets/logos/drlogo_main.png" alt="DR official Logo" class="dr-home-logo logo-emerge">
+                <!-- <div class="robot-animation">
+                    <div class="robot-body">
+                        <div class="robot-head">
+                            <div class="robot-eye left"></div>
+                            <div class="robot-eye right"></div>
+                        </div>
+                        <div class="robot-chest"></div>
+                        <div class="robot-arm left"></div>
+                        <div class="robot-arm right"></div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+
+        <div class="container">
+            <h2 class="section-title">What the heck is Droid?</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>Our Mission</h3>
+                        <p>The Ashoka Robotics Society, <strong>DROID ROBOTICS\'</strong> overarching mission is to establish a vibrant and interdisciplinary ecosystem where Ashokans (students, staff, labs, profs.) can engage in exploratory learning, hone their skills en-route of developing novel solutions to tackle daily life challenges using robotics.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Our Departments</h3>
+                        <p>The <strong>Projects</strong>, and <strong>Publications</strong> are two pillars upon which the society stands. While the Projects dept. focuses on implementing pragmatic projects, and workshops organisation, facilitating the translation of theory, and prototyping into practicality, the publications engages in dialogues of robotics in Philosophy, Politics, Science etc.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Our Vision</h3>
+                        <p>By providing a platform for collaborative projects and workshops, DROID ROBOTICS renders robotics accessible and captivating for Ashoka community from diverse backgrounds, thereby bridging the gap between theoretical concepts and practical implementation in a liberal arts environment.</p>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">2024</div>
+                        <div class="stat-label">Founded</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">Publications</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">Team Members</div>
+                    </div>
+                </div>
+            </div>
+            
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+
+        <div class="container">
+            <h2 class="section-title">Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member" onclick="openModal('harsh-modal')">
+                    <div class="member-image">
+                        <img src="../assets/team/(DR) Display Photo - G. Vardhana (2).jpg" alt="G. Harsh Vardhana">
+                        <div class="member-overlay">
+                            <i class="fas fa-eye"></i>
+                            <span>View Profile</span>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>G. Harsh Vardhana</h3>
+                        <p>President</p>
+                        <div class="member-social">
+                            <a href="mailto:manharshit16@gmail.com"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-member" onclick="openModal('vedant-modal')">
+                    <div class="member-image">
+                        <img src="../assets/team/Passport photograph-modified - Vedant Deshmukh (1).jpeg" alt="Vedant Deshmukh">
+                        <div class="member-overlay">
+                            <i class="fas fa-eye"></i>
+                            <span>View Profile</span>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Vedant Deshmukh</h3>
+                        <p>Co-President <br> HoD - Publications</p>
+                        <div class="member-social">
+                            <a href="mailto:vedant.deshmukh_ug25@ashoka.edu.in"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Our Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Alpha</h3>
+                        <p>Coming Soon - Innovative robotics solution addressing real-world challenges.</p>
+                        <div class="project-tags">
+                            <span class="tag">Robotics</span>
+                            <span class="tag">AI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Beta</h3>
+                        <p>Coming Soon - IoT integration with advanced sensor networks.</p>
+                        <div class="project-tags">
+                            <span class="tag">IoT</span>
+                            <span class="tag">Sensors</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Gamma</h3>
+                        <p>Coming Soon - Automation system for enhanced efficiency.</p>
+                        <div class="project-tags">
+                            <span class="tag">Automation</span>
+                            <span class="tag">Engineering</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Publications Section
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <div class="publications-grid">
+                <div class="publication-card">
+                    <div class="publication-header">
+                        <h3>Publication 1</h3>
+                        <span class="publication-date">Coming Soon</span>
+                    </div>
+                    <div class="publication-content">
+                        <p>Exploring the intersection of robotics and philosophy in modern society.</p>
+                        <div class="publication-actions">
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <i class="far fa-heart"></i>
+                                <span>0</span>
+                            </button>
+                            <button class="dislike-btn" onclick="toggleDislike(this)">
+                                <i class="far fa-thumbs-down"></i>
+                                <span>0</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-card">
+                    <div class="publication-header">
+                        <h3>Publication 2</h3>
+                        <span class="publication-date">Coming Soon</span>
+                    </div>
+                    <div class="publication-content">
+                        <p>The role of robotics in addressing contemporary political challenges.</p>
+                        <div class="publication-actions">
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <i class="far fa-heart"></i>
+                                <span>0</span>
+                            </button>
+                            <button class="dislike-btn" onclick="toggleDislike(this)">
+                                <i class="far fa-thumbs-down"></i>
+                                <span>0</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Team Member Modals -->
+    <div id="harsh-modal" class="modal">
+
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('harsh-modal')">&times;</span>
+            <div class="modal-header">
+                <img src="../assets/team/(DR) Display Photo - G. Vardhana (2).jpg" alt="G. Harsh Vardhana">
+                <div>
+                    <h2>G. Harsh Vardhana <br>The G</h2>
+                    <p>President</p>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <p>G. Harsh Vardhana better knows as 'The G' is a senior year UG at Ashoka pursuing Biology as his major. Coming from an atmosphere wherein self study was of paramount importance, he believes introspection unlocks personal-development. Droid Robotics is his application of this philosophy for himself, and other droids in the field of Robotics.</p>
+                
+                <h4>Interests:</h4>
+                <p>Clinical Neuroscience, Quantum Physics, UAVs, Physical AI Systems, Bipedal Humanoid Systems</p>
+                
+                <h4>Hobbies:</h4>
+                <p>Music composition, Reading, Random Observation, Film critique</p>
+                
+                <h4>Projects (in DR):</h4>
+                <p>N/A</p>
+                
+                <h4>Contact:</h4>
+                <p>manharshit16@gmail.com | g.vardhana_ug25@ashoka.edu.in <br> +91 9060381954</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="vedant-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('vedant-modal')">&times;</span>
+            <div class="modal-header">
+                <img src="../assets/team/Passport photograph-modified - Vedant Deshmukh (1).jpeg" alt="Vedant Deshmukh">
+                <div>
+                    <h2>Vedant Deshmukh</h2>
+                    <p>Vice President | HoD - Publications</p>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p>Vedant is about all things philosophy. In his sugar-rush hours, you will find him nerding over Philosophy of Mind, Indian Philosophy, and Ethical Dilemmas. At Droid, he helps the publications team come up with engaging ideas and coordinates various projects. When not scribbling argument maps in his philosophy journals, you'd find him feeding his cat, hiking in the mountains, or just taking long nature walks.</p>
+                
+                <h4>Interests:</h4>
+                <p></p>
+                
+                <h4>Hobbies:</h4>
+                <p></p>
+                
+                <h4>Projects or Goals:</h4>
+                <p>Tantric Phenomenology: Nature of Consciousness Between Edmund Husserl and Kasmir Saivism; Decoding Bitcoin: Is Bitcoin Money?; Ramifications of the Draft Digital Competition Bill on the Indian Economy; Moral Value of Oblique intentions and the Right to Attention</p>
+                
+                <h4>Contact:</h4>
+                <p>vedant.deshmukh_ug25@ashoka.edu.in <br> +91 9769767838</p>
+            </div>
+        </div>
+    </div>
+
+     <!-- Contact Section -->
+            <div class="contact-section">
+
+                <h3>Contact us</h3>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-user"></i>
+                        <div>
+                            <h4>G. Harsh Vardhana - President</h4>
+                            <p>manharshit16@gmail.com | g.vardhana_ug25@ashoka.edu.in</p>
+                            <p>+91 9060381954</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-user"></i>
+                        <div>
+                            <h4>Vedant Deshmukh - CoPresident</h4>
+                            <p>vedant.deshmukh_ug25@ashoka.edu.in</p>
+                            <p>+91 9769767838</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
